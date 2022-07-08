@@ -1,0 +1,45 @@
+show databases;
+
+use project;
+
+create table board (
+	id 		int			not null primary key auto_increment,
+	name 	varchar(20) not null,
+	passwd 	varchar(20) not null,
+	title 	varchar(100)	null,
+	email 	varchar(30) 	null,
+	regdate datetime 		null,
+	content text 			null
+);
+
+alter table board drop column email;
+ALTER TABLE board convert to charset utf8;
+
+desc board;
+
+select * from board;
+
+
+
+/*studentdatabase 관련 테이블 생성작업*/
+create table student (
+	id 		varchar(10) not null,
+	passwd 	varchar(10) not null,
+	name 	varchar(20) not null,
+	year 	int 		not null,
+	snum 	varchar(10) 	null,
+	depart 	varchar(20) 	null,
+	mobile1 varchar(30) 	null,
+	mobile2 varchar(30) 	null,
+	address varchar(50) 	null,
+	email 	varchar(20) 	null,
+	primary key(id)
+);
+
+desc student;
+
+/*example*/
+insert into student values('3', '1234', '성진', '2000', '20195255', 'Comp.', '010-5676-3232', '', 'seoul', 'dnjsanr011@naver.com');
+insert into student values('2', '5678', 'tjdwls', '2001', '20205255', 'Comp.', '010-8280-9979', '', 'seoul', 'tjdwls326@gmail.com');
+
+select * from student;
