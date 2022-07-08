@@ -20,7 +20,6 @@
 
 ### Images
 ![image1](./image/1.PNG)
-![image2](./image/2.PNG)
 ![image3](./image/3.PNG)
 ![image4](./image/4.PNG)
 ![image5](./image/5.PNG)
