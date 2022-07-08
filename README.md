@@ -19,10 +19,10 @@
 * 춘천에서 지역을 넓혀 데이터 확대
 
 ### Images
-![image1](./image/1.png)
-![image2](./image/2.png)
-![image3](./image/3.png)
-![image4](./image/4.png)
-![image5](./image/5.png)
+![image1](./image/1.PNG)
+![image2](./image/2.PNG)
+![image3](./image/3.PNG)
+![image4](./image/4.PNG)
+![image5](./image/5.PNG)
 ![image6](./image/6.jpg)
 ![image7](./image/7.jpg)
